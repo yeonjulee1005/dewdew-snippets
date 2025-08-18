@@ -1,7 +1,7 @@
 # DewDew Snippets
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/48676844/221220456-c06a61ba-04d7-478f-8521-43d6664b1fdb.png" width='180px' height='180px' alt="snippet" >
+  <img src="https://github.com/yeonjulee1005/dewdew-snippets/blob/d6183ecde9a1cc222b23092f8b1ede32ca3a5964/images/icon.png" width='180px' height='180px' alt="snippet" >
 </p>
 
 <p align="center">
