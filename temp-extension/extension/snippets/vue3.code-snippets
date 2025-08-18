@@ -48,7 +48,7 @@
   "Dewdew Create Vue3 Pinia Store": {
     "prefix": "ddv3p",
     "body": [
-      "<script setup lang=\"ts\">",
+      "script setup lang=\"ts\">",
       "import { defineStore } from 'pinia'",
       "import { ref, computed } from 'vue'",
       "",
@@ -83,7 +83,6 @@
   "Dewdew Create Vue3 Router Navigation": {
     "prefix": "ddv3r",
     "body": [
-      "<script setup lang=\"ts\">",
       "import { useRouter, useRoute } from 'vue-router'",
       "",
       "const router = useRouter()",
@@ -108,8 +107,7 @@
       "",
       "const goToPath = (path: string) => {",
       "  router.push(path)",
-      "}",
-      "</script>",
+      "}"
     ],
     "description": "Vue3 Router Navigation"
   },

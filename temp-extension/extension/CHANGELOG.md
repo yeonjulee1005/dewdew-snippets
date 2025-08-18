@@ -2,7 +2,7 @@
 
 All notable changes to the "DewDew Snippets" extension will be documented in this file.
 
-## [0.0.2] - 2025-08-18
+## [0.0.1] - 2025-08-18
 
 ### Added
 - Vue3 Composition API Component
@@ -30,6 +30,7 @@ All notable changes to the "DewDew Snippets" extension will be documented in thi
 - Next.js Image Component
 - Next.js Link Component
 - Next.js Initial Props
+- Next.js Image
 - Next.js App
 - Next.js Document
 - Next.js API Handler
