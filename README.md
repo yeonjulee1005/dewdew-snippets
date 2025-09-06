@@ -1,11 +1,11 @@
 # DewDew Snippets
 
 <p align="center">
-  <img src="https://github.com/yeonjulee1005/dewdew-snippets/blob/d6183ecde9a1cc222b23092f8b1ede32ca3a5964/images/icon.png" width='180px' height='180px' alt="snippet" >
+    <img src="https://raw.githubusercontent.com/yeonjulee1005/dewdew-snippets/master/images/icon.png" width='180px' height='180px' alt="DewDew Snippets Icon" >
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/visual-studio-marketplace/v/dewdew.dewdew-snippets" />
+  <img src="https://img.shields.io/visual-studio-marketplace/v/DewdewSnippets.dewdew-snippets" />
   <h4 align="center">DewDew Snippets for Frontend Developer</h4>
   <br />
 </p>

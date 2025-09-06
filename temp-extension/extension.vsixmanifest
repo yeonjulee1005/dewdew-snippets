@@ -21,7 +21,7 @@
 				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/yeonjulee1005/dewdew-snippets.git" />
 				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/yeonjulee1005/dewdew-snippets/issues" />
 				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://www.dewdew.world" />
-				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#C80000" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#DA5958" />
 				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
 				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
 				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>

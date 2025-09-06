@@ -2,6 +2,43 @@
 
 All notable changes to the "DewDew Snippets" extension will be documented in this file.
 
+## [0.0.7] - 2025-01-27
+
+### Fixed
+- Reorganized snippet language mappings for better file type support
+- .vue files now support both vue3 and nuxt4 snippets
+- .jsx and .tsx files now support react, nextjs, and react-native snippets
+- Improved snippet availability across different file contexts
+
+## [0.0.6] - 2025-01-27
+
+### Fixed
+- Fixed Vue file snippet recognition by adding vue-html and javascript language support
+- Improved snippet availability across different Vue file contexts
+- Enhanced language identifier coverage for better snippet detection
+
+## [0.0.5] - 2025-01-27
+
+### Fixed
+- Fixed publisher name to "DewdewSnippets" for consistency
+- Updated SETUP.md documentation with correct publisher information
+- Improved build process documentation
+
+## [0.0.4] - 2025-01-27
+
+### Fixed
+- Fixed VS Code engine compatibility from ^1.102.0 to ^1.60.0 for Cursor compatibility
+- Updated version to 0.0.4
+
+## [0.0.3] - 2025-01-27
+
+### Fixed
+- Fixed publisher name from "DewdewSpinnets" to "DewdewSnippets"
+- Fixed display name typo from "Develover" to "Developer"
+- Updated language identifiers to match VS Code standards
+- Fixed marketplace badge URL in README.md
+- Added MIT License file
+
 ## [0.0.2] - 2025-08-18
 
 ### Added

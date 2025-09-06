@@ -1,9 +1,9 @@
 {
   "name": "dewdew-snippets",
-  "displayName": "DewDew Snippets (For Frontend Develover)",
+  "displayName": "DewDew Snippets (For Frontend Developer)",
   "description": "Best Choice Snippets For Frontend Developer - Vue3, Nuxt4, React, Next.js, React Native Snippets",
-  "version": "0.0.2",
-  "publisher": "DewdewSpinnets",
+  "version": "0.0.8",
+  "publisher": "DewdewSnippets",
   "homepage": "https://www.dewdew.world",
   "bugs": {
     "url": "https://github.com/yeonjulee1005/dewdew-snippets/issues"
@@ -13,7 +13,7 @@
     "url": "https://github.com/yeonjulee1005/dewdew-snippets"
   },
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Programming Languages",
@@ -34,49 +34,49 @@
   ],
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#DA5958",
     "theme": "dark"
   },
   "contributes": {
     "snippets": [
       {
-        "language": "vue3",
+        "language": "vue",
         "path": "./snippets/vue3.code-snippets"
       },
       {
-        "language": "vue3typescript",
+        "language": "vue",
+        "path": "./snippets/nuxt4.code-snippets"
+      },
+      {
+        "language": "vue-html",
         "path": "./snippets/vue3.code-snippets"
       },
       {
-        "language": "nuxt4",
+        "language": "vue-html",
         "path": "./snippets/nuxt4.code-snippets"
       },
       {
-        "language": "nuxt4typescript",
-        "path": "./snippets/nuxt4.code-snippets"
-      },
-      {
-        "language": "typescript",
+        "language": "javascriptreact",
         "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/nextjs.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react-native.code-snippets"
       },
       {
         "language": "typescriptreact",
         "path": "./snippets/react.code-snippets"
       },
       {
-        "language": "typescript",
+        "language": "typescriptreact",
         "path": "./snippets/nextjs.code-snippets"
       },
       {
-        "language": "typescriptnextjs",
-        "path": "./snippets/nextjs.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/react-native.code-snippets"
-      },
-      {
-        "language": "typescriptreactnative",
+        "language": "typescriptreact",
         "path": "./snippets/react-native.code-snippets"
       }
     ]
@@ -86,7 +86,7 @@
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "@types/vscode": "^1.102.0",
+    "@types/vscode": "^1.60.0",
     "vsce": "^2.15.0"
   }
 }
