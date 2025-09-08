@@ -2,7 +2,7 @@
   "name": "dewdew-snippets",
   "displayName": "DewDew Snippets (For Frontend Developer)",
   "description": "Best Choice Snippets For Frontend Developer - Vue3, Nuxt4, React, Next.js, React Native Snippets",
-  "version": "0.0.8",
+  "version": "0.1.1",
   "publisher": "DewdewSnippets",
   "homepage": "https://www.dewdew.world",
   "bugs": {
@@ -83,7 +83,11 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "version:major": "node scripts/version-runner.cjs major",
+    "version:minor": "node scripts/version-runner.cjs minor",
+    "version:patch": "node scripts/version-runner.cjs patch",
+    "version:clear": "node scripts/version-runner.cjs clear"
   },
   "devDependencies": {
     "@types/vscode": "^1.60.0",
