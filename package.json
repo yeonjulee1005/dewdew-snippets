@@ -2,7 +2,7 @@
   "name": "dewdew-snippets",
   "displayName": "DewDew Snippets (For Frontend Developer)",
   "description": "Best Choice Snippets For Frontend Developer - Vue3, Nuxt4, React, Next.js, React Native Snippets",
-  "version": "1.2509.1",
+  "version": "1.2510.1",
   "publisher": "DewdewSnippets",
   "homepage": "https://www.dewdew.world",
   "bugs": {
@@ -53,6 +53,14 @@
       },
       {
         "language": "vue-html",
+        "path": "./snippets/nuxt4.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/nuxt4.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/nuxt4.code-snippets"
       },
       {
