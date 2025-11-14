@@ -49,7 +49,7 @@ npm run watch
 
 ```bash
 # 패키지 빌드
-npm run package
+npx run package
 
 # 또는 직접 vsce 사용
 vsce package
@@ -78,10 +78,10 @@ npm run publish
 
 ```bash
 # Open VSX 로그인
-ovsx login yeonjulee1005
+npx ovsx login yeonjulee1005
 
 # Open VSX에 출시
-ovsx publish dewdew-snippets-0.0.4.vsix
+npx ovsx publish dewdew-snippets-0.0.4.vsix
 ```
 
 ### 3. 로컬 테스트
