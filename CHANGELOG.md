@@ -2,7 +2,26 @@
 
 All notable changes to the "DewDew Snippets" extension will be documented in this file.
 
-## [0.0.7] - 2025-01-27
+## [1.2511.1] - 2025-11-14
+
+### Improved
+- Enhanced Nuxt4 snippet formatting and structure
+- Removed unnecessary `<script setup>` tags from Server Route, Middleware, and Plugin snippets
+- Updated Component snippet: changed `emit` to `emits` and fixed event naming convention (`update-title` → `update:title`)
+- Added `<slot />` to Layout snippet for proper slot usage
+- Improved placeholder numbering and indentation across all Nuxt4 snippets
+- Enhanced Server Route snippet with better example code
+- Updated Middleware snippet parameters to use `_to, _from` convention for unused parameters
+- Fixed JSON formatting and trailing commas for better code consistency
+
+## [1.2509.1] - 2025-09-14
+
+### Fixed
+- Fixed minor version logic to properly handle YYMM format
+- Updated version management scripts to correctly increment minor versions
+- Improved version parsing for YYMM format compatibility
+
+## [0.0.7] - 2025-08-18
 
 ### Fixed
 - Reorganized snippet language mappings for better file type support
@@ -10,27 +29,27 @@ All notable changes to the "DewDew Snippets" extension will be documented in thi
 - .jsx and .tsx files now support react, nextjs, and react-native snippets
 - Improved snippet availability across different file contexts
 
-## [0.0.6] - 2025-01-27
+## [0.0.6] - 2025-08-18
 
 ### Fixed
 - Fixed Vue file snippet recognition by adding vue-html and javascript language support
 - Improved snippet availability across different Vue file contexts
 - Enhanced language identifier coverage for better snippet detection
 
-## [0.0.5] - 2025-01-27
+## [0.0.5] - 2025-08-18
 
 ### Fixed
 - Fixed publisher name to "DewdewSnippets" for consistency
 - Updated SETUP.md documentation with correct publisher information
 - Improved build process documentation
 
-## [0.0.4] - 2025-01-27
+## [0.0.4] - 2025-08-18
 
 ### Fixed
 - Fixed VS Code engine compatibility from ^1.102.0 to ^1.60.0 for Cursor compatibility
 - Updated version to 0.0.4
 
-## [0.0.3] - 2025-01-27
+## [0.0.3] - 2025-08-18
 
 ### Fixed
 - Fixed publisher name from "DewdewSpinnets" to "DewdewSnippets"
@@ -39,7 +58,7 @@ All notable changes to the "DewDew Snippets" extension will be documented in thi
 - Fixed marketplace badge URL in README.md
 - Added MIT License file
 
-## [0.0.2] - 2025-08-18
+## [0.0.2] - 2025-01-27
 
 ### Added
 - Vue3 Composition API Component

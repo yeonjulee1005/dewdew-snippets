@@ -90,7 +90,7 @@ const incrementVersion = (current, type) => {
   switch (type) {
     case 'clear':
       return {
-        major: 1,
+        major: 0,
         minor: currentYearMonth,
         patch: 1,
       };
